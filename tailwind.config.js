@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{html,js}",
+    "./**/*.{html,js}"
+  ],
+  theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '8rem',
+      },
+    },
+    fontFamily: {
+      'roboto': ['Roboto', 'sans-serif'],
+      'merriweather': ['Merriweather', 'serif']
+    },
+    extend: {
+
+    },
+  },
+  plugins: [],
+}
